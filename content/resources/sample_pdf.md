@@ -3,7 +3,7 @@ body: ''
 content_type: resource
 draft: false
 file: /courses/music12-gugu-dolls-spring-2025/sample.pdf
-file_size: 18810
+file_size: 36491
 file_type: application/pdf
 gdrive_url: ''
 image_metadata:
