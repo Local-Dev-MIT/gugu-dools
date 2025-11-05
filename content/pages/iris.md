@@ -5,7 +5,7 @@ draft: false
 title: Iris
 uid: 3651f8c1-10f7-4e67-b796-0d62dfd734c1
 ---
-Rain song and a {{% resource_link "b2071284-13b5-46a1-8164-abeb8570ab43" "simple pdf" %}} 
+Rain song and a {{% resource_link "2bd4acb4-357c-4352-95a4-27a8c166c7c0" "PDF Bookmark Sample" %}}
 
  
 
