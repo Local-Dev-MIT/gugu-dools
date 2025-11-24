@@ -11,11 +11,11 @@ image_metadata:
   credit: ''
   image-alt: ''
 learning_resource_types:
-- Image Gallery
 - Simulations
 - Design Assignments
 - Editable Files
 - Instructor Insights
+- Image Gallery
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 resourcetype: Document
 title: sample
