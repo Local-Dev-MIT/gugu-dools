@@ -23,7 +23,9 @@
   ],
   "extra_course_numbers": "",
   "primary_course_number": "MUSIC12",
-  "learning_resource_types": [],
+  "learning_resource_types": [
+    "Competition Videos"
+  ],
   "site_uid": "510b909c-eb1a-423a-be3f-32b5fe247bb9",
   "site_short_id": "gugu-dools",
   "site_url_path": "courses/music12-gugu-dolls-spring-2025"
