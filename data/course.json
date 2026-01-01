@@ -14,7 +14,19 @@
     ],
     [
       "Energy",
+      "Buildings"
+    ],
+    [
+      "Energy",
       "Climate"
+    ],
+    [
+      "Energy",
+      "Combustion"
+    ],
+    [
+      "Energy",
+      "Electricity"
     ],
     [
       "Engineering",
