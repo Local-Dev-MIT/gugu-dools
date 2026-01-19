@@ -1,12 +1,8 @@
 ---
 content_type: page
-description: The iris is the ship
+description: The iris
 draft: false
 title: Iris
 uid: 3651f8c1-10f7-4e67-b796-0d62dfd734c1
 ---
-Rain song and a {{% resource_link "2bd4acb4-357c-4352-95a4-27a8c166c7c0" "PDF Bookmark Sample" %}}
-
- 
-
-An yea
+Yeah boi, {{% resource_link "7107d41f-67d4-4b91-8c34-2d1adc257dba" "https://www.tiktok.com" %}}
