@@ -4,7 +4,58 @@
   "level": [
     "Undergraduate"
   ],
-  "topics": [],
+  "topics": [
+    [
+      "Business",
+      "Accounting"
+    ],
+    [
+      "Energy",
+      "Buildings"
+    ],
+    [
+      "Energy",
+      "Climate"
+    ],
+    [
+      "Energy",
+      "Combustion"
+    ],
+    [
+      "Energy",
+      "Electricity"
+    ],
+    [
+      "Engineering",
+      "Biological Engineering",
+      "Biotechnology"
+    ],
+    [
+      "Mathematics"
+    ],
+    [
+      "Science",
+      "Biology"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Biophysics"
+    ],
+    [
+      "Science",
+      "Chemistry"
+    ],
+    [
+      "Science",
+      "Physics"
+    ],
+    [
+      "Science",
+      "Physics",
+      "Classical Mechanics"
+    ]
+  ],
   "legacy_uid": "",
   "instructors": {
     "content": [],
@@ -23,7 +74,12 @@
   ],
   "extra_course_numbers": "",
   "primary_course_number": "MUSIC12",
-  "learning_resource_types": [],
+  "learning_resource_types": [
+    "Competition Videos",
+    "Image Gallery",
+    "Simulation Videos",
+    "Activity Assignments"
+  ],
   "site_uid": "510b909c-eb1a-423a-be3f-32b5fe247bb9",
   "site_short_id": "gugu-dools",
   "site_url_path": "courses/music12-gugu-dolls-spring-2025"
