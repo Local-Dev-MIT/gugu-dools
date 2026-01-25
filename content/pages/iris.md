@@ -5,8 +5,170 @@ draft: false
 title: Iris
 uid: 3651f8c1-10f7-4e67-b796-0d62dfd734c1
 ---
-Yeah boi, {{% resource_link "7107d41f-67d4-4b91-8c34-2d1adc257dba" "https://www.tiktok.com" %}}
+Textbook
+--------
 
-I am aDON
+The textbook is {{% resource_link "5d968a31-ea12-4fd0-9569-e48b06a7ea04" "![Buy at MIT Press](/images/mp_logo.gif)" %}} Guttag, John. _Introduction to Computation and Programming Using Python: With Application to Understanding Data Second Edition_. MIT Press, 2016. ISBN: 9780262529624. The book and the course lectures parallel each other, though there is more detail in the book about some topics. It is available both in hard copy and as an e-book.
 
-{{% resource_link "dbe63085-49e7-4cde-941a-0bee5718793a" "https://www.foo.bar.com/" %}} {{% resource_link "755e237f-dc13-4b15-b2df-4a1b439e3405" "https://uol.edu.pk" %}} {{% resource_link "4999a067-7cad-4fb9-8b01-08e1722ed5c6" "https://github.com" %}}
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+SES #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+READINGS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+What is computation?
+{{< tdclose >}}
+{{< tdopen >}}
+Chapters 1 and 2.1
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+Branching and Iteration
+{{< tdclose >}}
+{{< tdopen >}}
+Chapters 2.2, 2.3.1, 2.4, and 3.2
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+String Manipulation, Guess and Check, Approximations, Bisection
+{{< tdclose >}}
+{{< tdopen >}}
+Chapters 3.1 and 3.3–3.5
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+Decomposition, Abstractions, Functions
+{{< tdclose >}}
+{{< tdopen >}}
+Chapters 4.1–4.2 and 4.4–4.6
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+Tuples, Lists, Aliasing, Mutability, Cloning
+{{< tdclose >}}
+{{< tdopen >}}
+Chapters 5.1–5.3.1 and 5.4–5.5
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+Recursion, Dictionaries
+{{< tdclose >}}
+{{< tdopen >}}
+Chapters 4.3 and 5.6
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+Testing, Debugging, Exceptions, Assertions
+{{< tdclose >}}
+{{< tdopen >}}
+Chapters 6 and 7
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+Object Oriented Programming
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 8.1
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+Python Classes and Inheritance
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 8.2
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10
+{{< tdclose >}}
+{{< tdopen >}}
+Understanding Program Efficiency, Part 1
+{{< tdclose >}}
+{{< tdopen >}}
+Chapters 9.1–9.3.1, 9.3.3, and 9.3.5
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+11
+{{< tdclose >}}
+{{< tdopen >}}
+Understanding Program Efficiency, Part 1 (Cont.)
+{{< tdclose >}}
+{{< tdopen >}}
+Chapters 9.3.2, 9.3.4, 9.3.6, and 9.3.7
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+12
+{{< tdclose >}}
+{{< tdopen >}}
+Searching and Sorting algorithms
+{{< tdclose >}}
+{{< tdopen >}}
+Chapters 10.1–10.2
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
