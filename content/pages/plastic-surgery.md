@@ -5,4 +5,4 @@ draft: false
 title: Plastic Surgery
 uid: 34d2aa08-6282-4646-8df1-8bfcf501fadf
 ---
-This is a ref to the hospital {{% resource_link "6f38620d-adc5-4656-8527-632dd2a120f3" "https://aadilhospital.com" %}}
+This is a ref to the hospital
