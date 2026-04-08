@@ -31,3 +31,4 @@ uid: 3651f8c1-10f7-4e67-b796-0d62dfd734c1
 
 - Non-commutative projection theory. We have presented projection theory in the context of commutative groups. The setting is that we have a commutative group \\(G\\) and many homomorphisms \\(\\pi\_j: G \\rightarrow H\_j\\). Each homomorphism can be described by its kernel, \\(K\_j\\). So \\(\\pi\_j: G \\rightarrow G / K\_j\\). Now suppose that \\(G\\) is a non-commutative group. Let \\(K\_j\\) be a bunch of subgroups, and consider the maps \\(\\pi\_j G \\rightarrow G / K\_j\\). How much of what we discussed in class can be generalized to this setting? It might help to think in general or to pick a simple non-commutative group, such as \\(SL\_2(\\mathbb{F}\_p)\\). Projection theory for general commutative groups \\(G\\) is also a possible project to explore.
 - Something else that you think of.
+- Yeah BPI {{% resource_link "27ed769e-1472-4429-b638-1d0541a0cb9a" "https://foo.com" %}}
