@@ -1,174 +1,33 @@
 ---
+audience: []
 content_type: page
 description: The iris
 draft: false
+learning_resource_types: []
+level: []
 title: Iris
 uid: 3651f8c1-10f7-4e67-b796-0d62dfd734c1
 ---
-Textbook
---------
+## Some Possible Questions to Explore
 
-The textbook is {{% resource_link "5d968a31-ea12-4fd0-9569-e48b06a7ea04" "Buy at MIT Press" %}} Guttag, John. _Introduction to Computation and Programming Using Python: With Application to Understanding Data Second Edition_. MIT Press, 2016. ISBN: 9780262529624. The book and the course lectures parallel each other, though there is more detail in the book about some topics. It is available both in hard copy and as an e-book.
+- Contagious structures for projections. In class we used Plunnecke inequality and Ruzsa inequality to prove contagious structure for projections of \\(A \\times A \\subset \\mathbb{F}\_p^2\\). Are there similar results for projections of an arbitrary set \\(X \\subset \\mathbb{F}\_q^2\\)? Here is a precise question. Suppose that \\(| \\pi\_t(X) | \\le K |X|^{1/2}\\) for \\(t= 0, \\infty, t\_1\\), and \\(t\_2\\). Does it follow that \\(| \\pi\_{t\_1 + t\_2} (X)| \\le K^C |X|^{1/2}\\) for a universal constant \\(C\\)? (What \\(C\\) can you get?) Similarly for \\(|\\pi\_{t\_1 t\_2}(X)|\\) and \\(| \\pi\_{-t}(X)|\\). See Lecture 11. (Possible reference: Katz-Tao's work on "sums differences")
+- Projections in algebraically independent directions. Suppose that \\(D = {0, 1, \\infty, t\_1, …, t\_r} \\subset \\mathbb{R}\\). Let \\(\\pi\_t(x\_1, x\_2) = x\_1 + t x\_2\\). Let \\(X\\) be a finite subset of \\(\\mathbb{R}^2\\). Define 
 
-{{< tableopen >}}
-{{< theadopen >}}
-{{< tropen >}}
-{{< thopen >}}
-SES #
-{{< thclose >}}
-{{< thopen >}}
-TOPICS
-{{< thclose >}}
-{{< thopen >}}
-READINGS
-{{< thclose >}}
+\\[S\_D(N) = \\min\_{|X| = N} \\max\_{t \\in D} | \\pi\_t(X)|.\\]
 
-{{< trclose >}}
+> If \\(t\_1, …, t\_r\\) are algebraically independent over \\(\\mathbb{Q}\\), what upper and lower bounds can you prove on \\(S\_D(N)\\) (in terms of \\(N\\) and \\(r\\))? You might want to start with \\(r=1\\).
 
-{{< theadclose >}}
-{{< tropen >}}
-{{< tdopen >}}
-1
-{{< tdclose >}}
-{{< tdopen >}}
-What is computation?
-{{< tdclose >}}
-{{< tdopen >}}
-Chapters 1 and 2.1
-{{< tdclose >}}
+- Optional question from problem set 5, related to Bombieri-Vinogradov. In problem set 5, using the large sieve, we proved the following estimate. If \\(X \\subset [N]\\), then for \\(90\\%\\) of \\(p \\in P\_{N^{1/2}}\\), 
 
-{{< trclose >}}
-{{< tropen >}}
-{{< tdopen >}}
-2
-{{< tdclose >}}
-{{< tdopen >}}
-Branching and Iteration
-{{< tdclose >}}
-{{< tdopen >}}
-Chapters 2.2, 2.3.1, 2.4, and 3.2
-{{< tdclose >}}
+> **Inequality 1.** \\(\\Vert (\\pi\_p 1\_X)\_h^{\*2} \\Vert\_{L^\\infty(\\mathbb{Z}\_p)} \\lessapprox |X|.\\)
 
-{{< trclose >}}
-{{< tropen >}}
-{{< tdopen >}}
-3
-{{< tdclose >}}
-{{< tdopen >}}
-String Manipulation, Guess and Check, Approximations, Bisection
-{{< tdclose >}}
-{{< tdopen >}}
-Chapters 3.1 and 3.3–3.5
-{{< tdclose >}}
+> This bound is sharp when \\(X\\) is an arithmetic progression of length \\(N^\\alpha\\) with \\(\\alpha < 1/2\\). But in this case, \\(\\Vert 1\_X^{\*2} \\Vert\_{\\ell^\\infty}\\) is itself large. Suppose that \\(X \\subset [N]\\) with \\(|X| \\sim N^{1/2}\\), and suppose that \\(\\Vert1\_X^{\*2} \\Vert\_{L^\\infty} \\lessapprox 1\\). For most \\(p \\in P\_{N^{1/2}}\\), can we prove a bound for \\(\\Vert(\\pi\_p 1\_X)^{\*2}\_h \\Vert\_{L^\\infty(\\mathbb{Z}\_p)}\\) which improves on Inequality 1?
 
-{{< trclose >}}
-{{< tropen >}}
-{{< tdopen >}}
-4
-{{< tdclose >}}
-{{< tdopen >}}
-Decomposition, Abstractions, Functions
-{{< tdclose >}}
-{{< tdopen >}}
-Chapters 4.1–4.2 and 4.4–4.6
-{{< tdclose >}}
+- Optional question from problem set 4, related to the large sieve. To pursue this direction, it would be helpful to have a little background in restriction theory in Fourier analysis. In class, we used the large sieve to prove the following estimate.
 
-{{< trclose >}}
-{{< tropen >}}
-{{< tdopen >}}
-5
-{{< tdclose >}}
-{{< tdopen >}}
-Tuples, Lists, Aliasing, Mutability, Cloning
-{{< tdclose >}}
-{{< tdopen >}}
-Chapters 5.1–5.3.1 and 5.4–5.5
-{{< tdclose >}}
+> **Theorem 1.** *If* \\(X \\subset [N]\\) *and* \\(| \\pi\_p(X) | \\le (0.99) p\\) *for every* \\(p \\in P\_{N^{1/2}}\\)*, then* \\(|X| \\lessapprox N^{1/2}\\)
 
-{{< trclose >}}
-{{< tropen >}}
-{{< tdopen >}}
-6
-{{< tdclose >}}
-{{< tdopen >}}
-Recursion, Dictionaries
-{{< tdclose >}}
-{{< tdopen >}}
-Chapters 4.3 and 5.6
-{{< tdclose >}}
+> This theorem is essentially sharp when \\(X\\) is the set of squares. We could explore what happens if we know \\(| \\pi\_p(X) \\le (0.99) p\\) for every \\(p \\in P\_{N^\\alpha}\\) for some other exponent \\(\\alpha\\), such as \\(\\alpha = 1/4\\). Or we could explore what happens if we replace \\(| \\pi\_p(X)| \\le (0.99) p\\) by a stronger bound like \\(|\\pi\_p(X)| \\le N^{1/4}\\) for every \\(p \\in P\_{N^{1/2}}\\).
 
-{{< trclose >}}
-{{< tropen >}}
-{{< tdopen >}}
-7
-{{< tdclose >}}
-{{< tdopen >}}
-Testing, Debugging, Exceptions, Assertions
-{{< tdclose >}}
-{{< tdopen >}}
-Chapters 6 and 7
-{{< tdclose >}}
-
-{{< trclose >}}
-{{< tropen >}}
-{{< tdopen >}}
-8
-{{< tdclose >}}
-{{< tdopen >}}
-Object Oriented Programming
-{{< tdclose >}}
-{{< tdopen >}}
-Chapter 8.1
-{{< tdclose >}}
-
-{{< trclose >}}
-{{< tropen >}}
-{{< tdopen >}}
-9
-{{< tdclose >}}
-{{< tdopen >}}
-Python Classes and Inheritance
-{{< tdclose >}}
-{{< tdopen >}}
-Chapter 8.2
-{{< tdclose >}}
-
-{{< trclose >}}
-{{< tropen >}}
-{{< tdopen >}}
-10
-{{< tdclose >}}
-{{< tdopen >}}
-Understanding Program Efficiency, Part 1
-{{< tdclose >}}
-{{< tdopen >}}
-Chapters 9.1–9.3.1, 9.3.3, and 9.3.5
-{{< tdclose >}}
-
-{{< trclose >}}
-{{< tropen >}}
-{{< tdopen >}}
-11
-{{< tdclose >}}
-{{< tdopen >}}
-Understanding Program Efficiency, Part 1 (Cont.)
-{{< tdclose >}}
-{{< tdopen >}}
-Chapters 9.3.2, 9.3.4, 9.3.6, and 9.3.7
-{{< tdclose >}}
-
-{{< trclose >}}
-{{< tropen >}}
-{{< tdopen >}}
-12
-{{< tdclose >}}
-{{< tdopen >}}
-Searching and Sorting algorithms
-{{< tdclose >}}
-{{< tdopen >}}
-Chapters 10.1–10.2
-{{< tdclose >}}
-
-{{< trclose >}}
-
-{{< tableclose >}}
+- Non-commutative projection theory. We have presented projection theory in the context of commutative groups. The setting is that we have a commutative group \\(G\\) and many homomorphisms \\(\\pi\_j: G \\rightarrow H\_j\\). Each homomorphism can be described by its kernel, \\(K\_j\\). So \\(\\pi\_j: G \\rightarrow G / K\_j\\). Now suppose that \\(G\\) is a non-commutative group. Let \\(K\_j\\) be a bunch of subgroups, and consider the maps \\(\\pi\_j G \\rightarrow G / K\_j\\). How much of what we discussed in class can be generalized to this setting? It might help to think in general or to pick a simple non-commutative group, such as \\(SL\_2(\\mathbb{F}\_p)\\). Projection theory for general commutative groups \\(G\\) is also a possible project to explore.
+- Something else that you think of.
