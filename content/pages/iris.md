@@ -10,7 +10,7 @@ uid: 3651f8c1-10f7-4e67-b796-0d62dfd734c1
 ---
 ## Some Possible Questions to Explore
 
-- Contagious structures for projections. In class we used Plunnecke inequality and Ruzsa inequality to prove contagious structure for projections of \\(A \\times A \\subset \\mathbb{F}\_p^2\\). Are there similar results for projections of an arbitrary set \\(X \\subset \\mathbb{F}\_q^2\\)? Here is a precise question. Suppose that \\(| \\pi\_t(X) | \\le K |X|^{1/2}\\) for \\(t= 0, \\infty, t\_1\\), and \\(t\_2\\). Does it follow that \\(| \\pi\_{t\_1 + t\_2} (X)| \\le K^C |X|^{1/2}\\) for a universal constant \\(C\\)? (What \\(C\\) can you get?) Similarly for \\(|\\pi\_{t\_1 t\_2}(X)|\\) and \\(| \\pi\_{-t}(X)|\\). See Lecture 11. (Possible reference: Katz-Tao's work on "sums differences")
+- Contagious structures for projections. In class we used Plunnecke inequality and Ruzsa inequality to prove contagious structure for projections of \\(A \\times A \\subset \\mathbb{F}\_p^2\\). Are there similar results for projections of an arbitrary set \\(X \\subset \\mathbb{F}\_q^2\\)? Here is a precise question. Suppose that \\(| \\pi\_t(X) | \\le K |X|^{1/2}\\) for \\(t= 0, \\infty, t\_1\\), and \\(t\_2\\). Does it follow that \\(| \\pi\_{t\_1 + t\_2} (X)| \\le K^C |X|^{1/2}\\) for a universal constant \\(C\\)? (Whast \\(C\\) can you get?) Similarly for \\(|\\pi\_{t\_1 t\_2}(X)|\\) and \\(| \\pi\_{-t}(X)|\\). See Lecture 11. (Possible reference: Katz-Tao's work on "sums differences")
 - Projections in algebraically independent directions. Suppose that \\(D = {0, 1, \\infty, t\_1, …, t\_r} \\subset \\mathbb{R}\\). Let \\(\\pi\_t(x\_1, x\_2) = x\_1 + t x\_2\\). Let \\(X\\) be a finite subset of \\(\\mathbb{R}^2\\). Define 
 
 \\[S\_D(N) = \\min\_{|X| = N} \\max\_{t \\in D} | \\pi\_t(X)|.\\]
@@ -31,3 +31,4 @@ uid: 3651f8c1-10f7-4e67-b796-0d62dfd734c1
 
 - Non-commutative projection theory. We have presented projection theory in the context of commutative groups. The setting is that we have a commutative group \\(G\\) and many homomorphisms \\(\\pi\_j: G \\rightarrow H\_j\\). Each homomorphism can be described by its kernel, \\(K\_j\\). So \\(\\pi\_j: G \\rightarrow G / K\_j\\). Now suppose that \\(G\\) is a non-commutative group. Let \\(K\_j\\) be a bunch of subgroups, and consider the maps \\(\\pi\_j G \\rightarrow G / K\_j\\). How much of what we discussed in class can be generalized to this setting? It might help to think in general or to pick a simple non-commutative group, such as \\(SL\_2(\\mathbb{F}\_p)\\). Projection theory for general commutative groups \\(G\\) is also a possible project to explore.
 - Something else that you think of.
+- Yeah BPI {{% resource_link "27ed769e-1472-4429-b638-1d0541a0cb9a" "https://foo.com" %}}
