@@ -4,58 +4,7 @@
   "level": [
     "Undergraduate"
   ],
-  "topics": [
-    [
-      "Business",
-      "Accounting"
-    ],
-    [
-      "Energy",
-      "Buildings"
-    ],
-    [
-      "Energy",
-      "Climate"
-    ],
-    [
-      "Energy",
-      "Combustion"
-    ],
-    [
-      "Energy",
-      "Electricity"
-    ],
-    [
-      "Engineering",
-      "Biological Engineering",
-      "Biotechnology"
-    ],
-    [
-      "Mathematics"
-    ],
-    [
-      "Science",
-      "Biology"
-    ],
-    [
-      "Science",
-      "Biology",
-      "Biophysics"
-    ],
-    [
-      "Science",
-      "Chemistry"
-    ],
-    [
-      "Science",
-      "Physics"
-    ],
-    [
-      "Science",
-      "Physics",
-      "Classical Mechanics"
-    ]
-  ],
+  "topics": [],
   "legacy_uid": "",
   "instructors": {
     "content": [],
@@ -78,7 +27,8 @@
     "Competition Videos",
     "Image Gallery",
     "Simulation Videos",
-    "Activity Assignments"
+    "Activity Assignments",
+    "Open Textbooks"
   ],
   "site_uid": "510b909c-eb1a-423a-be3f-32b5fe247bb9",
   "site_short_id": "gugu-dools",
