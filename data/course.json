@@ -5,6 +5,7 @@
     "Undergraduate"
   ],
   "topics": [],
+  "audience": [],
   "legacy_uid": "",
   "instructors": {
     "content": [],
@@ -14,7 +15,7 @@
     "content": "",
     "website": "gugu-dolls"
   },
-  "course_title": "Gugu Dolls",
+  "course_title": "Goo Goo Dolls",
   "hide_download": false,
   "mit_learn_topics": [],
   "course_description": "Song about songs",
@@ -27,8 +28,7 @@
     "Competition Videos",
     "Image Gallery",
     "Simulation Videos",
-    "Activity Assignments",
-    "Open Textbooks"
+    "Activity Assignments"
   ],
   "site_uid": "510b909c-eb1a-423a-be3f-32b5fe247bb9",
   "site_short_id": "gugu-dools",
